@@ -1,6 +1,8 @@
 <?php
 declare(strict_types=1);
 
+define('BASE_PATH', dirname(__DIR__));
+
 require_once 'vendor/autoload.php';
 require_once 'src/Config/Config.php';
 // require 'src/Databases/Connection.php';

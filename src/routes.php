@@ -1,10 +1,10 @@
 <?php
 
 use App\Router\Router;
-use App\Controllers\UserController;
+use App\Controllers\HomeController;
 
 $router = new Router();
 
-$router->addRoute('/', UserController::class, 'index');
+$router->addRoute('/', HomeController::class, 'index');
 
 return $router;
