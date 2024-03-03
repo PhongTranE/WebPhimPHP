@@ -1,0 +1,17 @@
+{
+    "name": "phonght/php-mvc-project",
+    "description": "Create a website movie PHP MVC",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "PhongTranE",
+            "email": "f3wY3@example.com"
+        }
+    ],
+    "require": {}
+}
